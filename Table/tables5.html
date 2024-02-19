@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>using rowspan and colspan</title>
+    <style>
+        table,th,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse ;
+        }
+        td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <table width="500px">
+        <colgroup>
+            <col span="1" style="background-color:#ddd">
+            <col span="2" style="background-color:#ded">
+        </colgroup>
+        <tr>
+            <th rowspan="2">ID</th>
+            <th colspan="2">Rating</th>
+        </tr>
+        <tr>
+            <td align="center">rate</td>
+            <td align="center">count</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>3.9</td>
+            <td>120</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>4.1</td>
+            <td>259</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4.7</td>
+            <td>500</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>2.1</td>
+            <td>430</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>4.6</td>
+            <td>400</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>3.9</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>3</td>
+            <td>430</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>1.9</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>3.3</td>
+            <td>203</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>2.9</td>
+            <td>470</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>4.8</td>
+            <td>319</td>
+        </tr>
+    </table>
+</body>
+</html>
