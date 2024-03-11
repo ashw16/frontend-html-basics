@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 82.5%;
+}
+body,html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+   
+}
+body{
+    font-size: 1.4rem;
+}
+ .container{
+    height: 700px;
+     overflow: scroll;
+    
+}
+a{
+    text-decoration:none ;
+   
+}
+nav{
+    margin: 10px;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    background-color: chocolate;
+}
+button:hover{
+    color: yellow;
+    transition: 0.2s ease-in-out;
+}
+
+h2::first-line {
+    color: crimson;
+    font-variant: small-caps;
+}
+
+p::first-letter{
+    color: blue;
+    font-size: xx-large;
+}
+
+p::first-line{
+    color: deeppink;
+}

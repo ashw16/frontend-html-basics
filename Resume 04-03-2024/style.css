@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 82.5%;
+}
+body,html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+   
+}
+body{
+    font-size: 1.4rem;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+nav{
+    margin: 10px;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+h1::first-line {
+        color: #ff0000;
+        font-variant: small-caps;
+      }
+p::first-letter {
+        color: #ff0000;
+        font-size: large;
+      }
+      
+p::first-line {
+        color: #0000ff;
+        font-variant: small-caps;
+      }
+/* to select an element */
+::selection {
+        color: red;
+        background: yellow;
+      } 
+ h2::first-line{
+    color: rgb(255, 0, 149);
+ }     
+
+ img{
+    float: right;
+    margin-left: 30px;
+    margin-top: -100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;  
+}
+
+.prof{
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+}
+ol{
+    background-color:lightsalmon;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+.skills_container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.technical-skills,
+.non-technical-skills {
+    flex-basis: calc(50px - 50px); /* Adjust based on your design */
+}
+
+.technical-skills h3,
+.non-technical-skills h3 {
+    margin-top: 0;
+}
+
+.technical-skills ol,
+.non-technical-skills ol {
+    list-style: none;
+    padding-left: 0;
+}
+.sign{
+    float: right;
+  padding: 15px;
+  
+}

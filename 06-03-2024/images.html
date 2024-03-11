@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>images</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+        body{
+            background-image: url(./bg_img.jpg);
+            height: 100vh;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        }
+        h1{
+            /* display: inline-block; */
+            font-size: 2em;
+            margin-block-start: o.67em;
+            margin-block-end: 0.67em;
+            margin-inline-start: 0px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        div{
+            display: block;
+        }
+       .img{
+        background-image: url(./flower.jpg);
+        height: 80px;
+        width: 90px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* padding: 20px;
+        
+        transition: transform 0.5s; */
+
+       }
+       
+       #a:hover+.img{
+        display: block;
+        transform: rotate(180deg);
+         transition: 0.5s all;
+        /* transform: rotate(180deg); Fixed rotateX property */
+        
+       }
+       #b:hover+.img{
+        display: block;
+        transform: rotate(180deg);
+         transition: 0.5s all;
+        
+       }
+       #c:hover+.img{
+        display: block;
+        transform: rotate(180deg);
+         transition: 0.5s all;
+       
+       }
+        
+    </style>
+</head>
+<body>
+    
+    <h1 id="a">180deg!</h1>
+    <div class="img"></div>
+    
+    <h1 id="b">160deg!</h1>
+    <div class="img"></div>
+    
+    <h1 id="c">300deg!</h1>
+    <div class="img"></div>
+
+    
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div {
+            padding: 100px;
+            margin: 50px;
+            text-align: center;
+            display: inline-block;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .name{
+            position: relative;
+            font-size: 36px;
+            font-weight: bold;
+        }
+     .letter{
+            position: absolute;
+            top: -100px;
+            animation: slideIn 0.5s ease forwards;
+              
+        }
+        .letter:nth-child(1){
+            background-color: red;
+            height: 50px;
+            width: 90px;
+            animation-delay: 1s;
+            
+        }
+        .letter:nth-child(2){
+            background-color: green;
+            height: 50px;
+            width: 90px;
+            animation-delay: 2s;
+        }
+        .letter:nth-child(3){
+            background-color: blue;
+            height: 50px;
+            width: 90px;
+            animation-delay: 3s;
+        }
+        .letter:nth-child(4){
+            background-color:chartreuse;
+            height: 50px;
+            width: 90px;
+            animation-delay: 4s;
+        }
+        .letter:nth-child(5){
+            background-color:crimson;
+            height: 50px;
+            width: 90px;
+            animation-delay: 5s;
+        }
+        .letter:nth-child(6){
+            background-color:darkcyan;
+            height: 50px;
+            width: 90px;
+            animation-delay: 6s;
+        }
+        .letter:nth-child(7){
+            background-color:fuchsia;
+            height: 50px;
+            width: 90px;
+            animation-delay: 7s;
+        }
+        @keyframes slideIn {
+            to{
+                top: 10px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="name">
+        <span class="letter">A</span>
+        <span class="letter">S</span>
+        <span class="letter">H</span>
+        <span class="letter">W</span>
+        <span class="letter">I</span>
+        <span class="letter">N</span>
+        <span class="letter">I</span>
+       
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>using  tables</title>
+    <style>
+       
+        table {
+            width: 300px;
+            border-collapse: collapse;
+        }
+        .container{
+            /* margin: 5px;
+            padding: 5px; */
+            float: left;
+            margin: 10px;
+            
+        }
+        
+                th{
+                    height: 30px;
+                    width: 300px;
+                    
+        
+                }
+                td{
+                    height: 100px;
+                    width: 100px;
+                    
+
+                }
+            
+                .content tr th{
+                    height: 100px;
+                    width: 60px;
+
+
+                }
+                .content tr td{
+                    height: 100px;
+                    width: 250px;
+
+
+                }
+    </style>
+</head>
+<body>
+    
+        <div class="container">
+            <table>
+                <tr>
+                    <th colspan="3" style="background-color:lightgray"></th>
+                    
+    
+                </tr>
+                <tr>
+                    <td style="background-color: aliceblue;"></td>
+                    <td style="background-color: #beb7b759;"></td>
+                    <td style="background-color: aliceblue;"></td>
+                    
+                </tr>
+                <tr>
+                    <th colspan="3" style="background-color: lavender;"></th>
+                </tr>
+            </table>
+        </div>
+        <div class="container">
+            <table>
+                <tr>
+                    <th colspan="3" style="background-color:#ccc"></th>
+                    
+    
+                </tr>
+                <tr>
+                    <td style="background-color:blueviolet; height: 100px; width: 30px;"></td>
+                    <td style="background-color:cadetblue;"></td>
+                    <td style="background-color:blueviolet; height: 100px; width: 30px;"></td>
+                    
+                </tr>
+                <tr>
+                    <th colspan="3" style="background-color: #ccc;"></th>
+                </tr>
+            </table>
+        </div>
+        <div class="container">
+            <table>
+                <tr>
+                    <th colspan="3" style="background-color:#ccc"></th>
+                    
+    
+                </tr>
+                <tr>
+                    <td style="background-color: ghostwhite;" colspan="3"></td>
+                    <!-- <td style="background-color: ghostwhite;"></td>
+                    <td style="background-color: ghostwhite;"></td> -->
+                    
+                </tr>
+                <tr>
+                    <th colspan="3" style="background-color: #ccc;"></th>
+                </tr>
+            </table>
+    
+        </div>
+        <div class="container">
+            <table class="content">
+               <tr>
+                <th rowspan="2" colspan="2" style="background-color: red; height: 150px;"></th>
+               </tr>
+               <tr>
+                <td rowspan="3" colspan="3" style="background-color: blue;"></td>
+               </tr>
+            </table>
+    
+        </div>
+   
+</body>
+</html>
